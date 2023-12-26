@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "316678830693",
+    "firebase_url": "https://playwise-f6c02-default-rtdb.firebaseio.com",
+    "project_id": "playwise-f6c02",
+    "storage_bucket": "playwise-f6c02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316678830693:android:5bfbeed43fd71ac991248c",
+        "android_client_info": {
+          "package_name": "gg.playwise.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316678830693-9jtdojfq799m0e4rdopqi0ck5s1jkn5u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_is_cj2Lxx05BM0n3ys8ZVP62YR7cvfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316678830693-9jtdojfq799m0e4rdopqi0ck5s1jkn5u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

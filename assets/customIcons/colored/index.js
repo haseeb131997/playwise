@@ -1,0 +1,32 @@
+import HomeSolid from './Home-Bold.png';
+import HomeOutline from './Home.png';
+import TournamentSolid from './Tournament-Bold.png';
+import TournamentOutline from './Tournament.png';
+import LeaderboardSolid from './Leaderboard-Bold.png';
+import LeaderboardOutline from './Leaderboard.png';
+import MoreAction from './moreActions.png';
+import SearchSolid from './Search.png';
+import NotificationSolid from './Notification.png';
+import FollowSolid from './Follow.png';
+import CommentSolid from './Comment.png';
+import ShareSolid from './Share.png';
+import FriendsSolid from './Friends.png';
+import BellOutline from './Bell.png';
+import ChatOutline from './Chat.png';
+
+
+export const HomeSolidIcon = HomeSolid;
+export const HomeOutlineIcon = HomeOutline;
+export const TournamentSolidIcon = TournamentSolid;
+export const TournamentOutlineIcon = TournamentOutline;
+export const LeaderboardSolidIcon = LeaderboardSolid;
+export const LeaderboardOutlineIcon = LeaderboardOutline;
+export const SearchSolidIcon = SearchSolid;
+export const MoreActionSolidIcon = MoreAction;
+export const NotificationSolidIcon = NotificationSolid;
+export const FollowSolidIcon = FollowSolid;
+export const CommentSolidIcon = CommentSolid;
+export const ShareSolidIcon = ShareSolid;
+export const FriendsSolidIcon = FriendsSolid;
+export const BellOutlineIcon = BellOutline;
+export const ChatOutlineIcon = ChatOutline;

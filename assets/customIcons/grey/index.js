@@ -1,0 +1,23 @@
+import HomeOutline from './Home.png';
+import TournamentOutline from './Tournament.png';
+import LeaderboardOutline from './Leaderboard.png';
+import SearchOutline from './Search.png';
+import MoreActionsOutline from './moreActions.png';
+import FollowOutline from './Follow.png';
+import CommentOutline from './Comment.png';
+import ShareOutline from './Share.png';
+import FriendsOutline from './Friends.png';
+import BellOutline from './Bell.png';
+import ChatOutline from './Chat.png';
+
+export const HomeOutlineIcon = HomeOutline;
+export const SearchOutlineIcon = SearchOutline;
+export const TournamentOutlineIcon = TournamentOutline;
+export const LeaderboardOutlineIcon = LeaderboardOutline;
+export const MoreActionsOutlineIcon = MoreActionsOutline;
+export const FollowOutlineIcon = FollowOutline;
+export const CommentOutlineIcon = CommentOutline;
+export const ShareOutlineIcon = ShareOutline;
+export const FriendsOutlineIcon = FriendsOutline;
+export const BellOutlineIconGrey = BellOutline;
+export const ChatOutlineIconGrey = ChatOutline;

@@ -1,0 +1,37 @@
+{
+  "cli": {
+    "version": ">= 3.15.0"   
+  },
+  "build": {
+    "staging": {
+      "releaseChannel": "staging"
+    },
+    "dev": {
+      "releaseChannel": "dev"
+    },
+    "preview": {
+      "android": {
+        "buildType": "apk"
+      },
+      "channel": "preview"
+    },
+    "preview2": {
+      "android": {
+        "gradleCommand": ":app:assembleRelease"
+      },
+      "channel": "preview2"
+    },
+    "preview3": {
+      "developmentClient": true,
+      "channel": "preview3"
+    },
+    "production": {
+      "channel": "production"
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
+
+

@@ -1,30 +1,96 @@
 {
   "expo": {
-    "name": "playwise",
+    "name": "Playwise",
+    "scheme": "playwise",
     "slug": "playwise",
-    "version": "1.0.0",
+    "currentfullname":"@suyash-vashishtha/playwise",
+    "originalfullname":"@suyash-vashishtha/playwise",
+    "projectNameForProxy":"@suyash-vashishtha/playwise",
+    "version": "1.3.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "userInterfaceStyle": "automatic",
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/0472958a-eae4-4125-90b7-ecd41cd337cd"
+    },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "usesAppleSignIn": true,
+      "userInterfaceStyle": "automatic",
+      "bundleIdentifier": "gg.playwise.mobile",
+      "supportsTablet": true,
+      "requireFullScreen": true,
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "buildNumber": "15",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "The app accesses your photos to upload files and documents.",
+        "NSCameraUsageDescription": "Allow $(PRODUCT_NAME) to access your camera"
+      }
     },
     "android": {
+      "userInterfaceStyle": "automatic",
+      "versionCode": 15,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "gg.playwise.mobile",
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.INTERNET",
+        "RECEIVE_BOOT_COMPLETED",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "playwise"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Playwise accesses your photos to let you share them with your friends."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notificationIcon.png"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "0472958a-eae4-4125-90b7-ecd41cd337cd"
+      }
+    },
+    "runtimeVersion": "exposdk:48.0.0"
   }
 }
